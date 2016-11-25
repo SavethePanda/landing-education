@@ -84,7 +84,7 @@ $('.parallax-window').parallax({imageSrc: '../img/middle_bg.jpg'});
 		}).done(function() {
 			alert("Спасибо за заявку!");
 		});
-		return: false;
+		return false;
 	});
 
 });
