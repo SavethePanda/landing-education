@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+	$('.popup-link').magnificPopup();
+
 	function wResize() {
 		if($(window).height()>100)
 		$("header").css("min-height",$(window).height())
@@ -81,10 +83,8 @@ $('.parallax-window').parallax({imageSrc: '../img/middle_bg.jpg'});
 			data: $(this).serialize()
 		}).done(function() {
 			alert("Спасибо за заявку!");
-			setTimeout(function() {
-				$.fancybox.close();
-			}, 1000);
 		});
+		return: false;
 	});
 
 });

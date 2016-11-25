@@ -231,16 +231,17 @@ header {
     font-family: "Roboto", sans-serif; }
 
 /***** Forms *** */
-#main-connect {
+#main-connect, #popup-form {
   padding: 20px 30px;
   border: 4px solid #67bc5c;
-  border-radius: 4px; }
-  #main-connect h2 {
+  border-radius: 4px;
+  background-color: #fff; }
+  #main-connect h2, #popup-form h2 {
     color: #333;
     font-family: "RobotoBold", sans-relif;
     font-size: 22px;
     margin-bottom: 10px; }
-  #main-connect label {
+  #main-connect label, #popup-form label {
     display: block;
     margin-bottom: 20px;
     color: #757575;
@@ -249,7 +250,7 @@ header {
     text-indent: 5px;
     letter-spacing: 1.2px;
     font-family: "Roboto", sans-serif; }
-    #main-connect label input, #main-connect label select {
+    #main-connect label input, #main-connect label select, #popup-form label input, #popup-form label select {
       margin-top: 5px;
       display: block;
       width: 100%;
@@ -258,7 +259,7 @@ header {
       border-radius: 3px;
       padding: 10px 15px;
       line-height: 15px; }
-  #main-connect input:focus, #main-connect select:focus {
+  #main-connect input:focus, #main-connect select:focus, #popup-form input:focus, #popup-form select:focus {
     border: 3px solid #67bc5c;
     outline: none; }
 
@@ -441,5 +442,14 @@ h4 {
 .tab-item-footer {
   font-family: "RobotoBold", sans-serif;
   font-size: 35px; }
+
+/***** HIDDEN **** */
+#popup-form {
+  max-width: 420px;
+  position: relative;
+  margin: auto; }
+  #popup-form h2 {
+    text-align: center;
+    margin-top: 0; }
 
 /*# sourceMappingURL=main.css.map */

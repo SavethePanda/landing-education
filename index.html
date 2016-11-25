@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.2.min.css" />
 	<link rel="stylesheet" href="libs/fontawesome/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.css" />
+	<link rel="stylesheet" href="libs/magnificpopup/magnific-popup.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/media.css" />
@@ -62,7 +63,7 @@
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, consequatur, iste? Quidem, illo eius modi esse sequi laboriosam, ipsum placeat!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, consequatur, iste? Quidem, illo eius
 										modi esse sequi laboriosam, ipsum placeat!</p>
 								</div>
-								<button class=" button red-button">начать обучение</button>
+								<a href="#popup-form" class=" button red-button popup-link">начать обучение</a>
 							</div>
 						</div>
 					</div>
@@ -161,11 +162,11 @@
 					<form id="main-connect">
 						<h2>Связаться с нами</h2>
 						<label>Ваше имя:
-						<input type="text" name="name"></label>
+						<input type="text" name="name" required></label>
 						<label>Ваш телефон:
-						<input type="text" name="city"></label>
+						<input type="text" name="phone" required></label>
 						<label>Ваш город:
-							<select name="city">
+							<select name="city" required>
 								<option value="Moscow">Москва</option>
 								<option value="Karaganda">Караганда</option>
 							</select>
@@ -294,8 +295,22 @@
 		</div>
 	</footer>
 
-	<div class="hidden"></div>
-
+	<div class="hidden">
+	<form id="popup-form">
+		<h2>Связаться с нами</h2>
+		<label>Ваше имя:
+		<input type="text" name="name" required></label>
+		<label>Ваш телефон:
+		<input type="text" name="phone" required></label>
+		<label>Ваш город:
+			<select name="city" required>
+				<option value="Moscow">Москва</option>
+				<option value="Karaganda">Караганда</option>
+			</select>
+		</label>
+		<button class="button green-button">Отправить заявку</button>
+	</form>
+	</div>
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
@@ -306,6 +321,7 @@
 	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
 	<script src="libs/modernizr/modernizr.js"></script>
 	<script src="libs/parallax/parallax.min.js"></script>
+	<script src="libs/magnificpopup/jquery.magnific-popup.min.js"></script>
 	<script src="libs/owlcarousel/owl.carousel.min.js"></script>
 	<script src="js/common.js"></script>
 
