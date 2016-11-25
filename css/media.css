@@ -1,0 +1,160 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.tizer-img{
+		display: block;
+		text-align: center;
+	}
+	.tizer-text{
+		text-align: center;
+		display: block;
+	}
+	.tizer-text p{
+		margin: 0 auto
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.tizer-text{
+		margin-bottom: 35px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	.logo{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.top-phone{
+		text-align: center;
+	}
+	.top-phone .tab-item{
+		font-size: 24px;
+	}
+	h1{
+		margin-top: 70px;
+		text-align: center;
+		font-size: 42px;
+		line-height: 64px;
+		margin-bottom: 20px;
+	}
+	.title-description {
+		text-align: center;
+		font-size: 26px;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.red-button {
+		float: none;
+	}
+	.main-tab {
+		font-size: 11px;
+	}
+	.main-tab-item ul{
+		padding: 0;
+	}
+	.main-tab-item{
+		font-size: 11px;
+		line-height: 19px;
+	}
+	.red-button {
+		padding: 5px 15px;
+		font-size: 12px;
+	}
+	.main-info .tab_content, .main-tab {
+		padding: 15px;
+	}
+	h1{
+		margin-top: 70px;
+		text-align: center;
+		font-size: 36px;
+		line-height: 48px;
+		margin-bottom: 20px;
+	}
+	.title-description {
+		text-align: center;
+		font-size: 18px;
+		line-height: 29px;
+	}
+
+	.tizer-img{
+		font-size: 56px;
+		line-height: 56px;
+		margin-right: 5px;
+	}
+	.tizer-img	p{
+			font-size: 58px;
+			line-height: 56px;
+		}
+	.tizer-text {
+		font-family: "CleanvertisingLight",sans-serif;
+		font-size: 12px;
+		}
+	.tizer-text strong{
+		font-size: 18px;
+	}
+}
+
+@media only screen and (max-width : 410px) {
+	.s-tizer{
+		padding-bottom: 10px;
+	}
+	.tizer-img{
+		font-size: 46px;
+		line-height: 46px;
+		margin-right: 5px;
+	}
+	.tizer-img	p{
+			font-size: 48px;
+			line-height: 46px;
+		}
+	.tizer-text {
+		font-family: "CleanvertisingLight",sans-serif;
+		font-size: 10px;
+		}
+	.tizer-text strong{
+		font-size: 14px;
+	}
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
